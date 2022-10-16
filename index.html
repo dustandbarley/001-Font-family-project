@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles.css" type="text/css" rel="stylesheet">
+    <title>The font-family property</title>
+</head>
+<header>
+  <h1>The 'font-family' Property:</h1>
+  <h2 class="align_left">Google Fonts, Common Fonts and Websafe Fonts</h2>
+
+  <p>When choosing a font for your website and listing it in the font-family property 
+    in your CSS style sheet,  it is a good idea to list three font families so different 
+    browsers can display the content of the page should your preferred font not be 
+    available.</p>
+</header>
+
+<body>
+
+<!--This is the first section-->
+
+<div>
+  <h2>Google Fonts</h2>
+
+  <p>There are many fonts hosted by Google ready to be used in a webpage at: 
+    <a href="https://fonts.google.com/" target="_blank">https://fonts.google.com</a>.</p>
+  <p>Here are two ways to do this:</p>
+
+  <ol type="1">
+    <li>To embed a font, copy the code into the &lt;head&gt; of your html.
+    </li>
+    <li>In the CSS style sheet, use the @font-face to download a custom font with which to display text; 
+        the font can be loaded from either a remote server or a locally-installed font on the user's own computer.
+    </li>
+  </ol>
+
+<!--Here is the Google Fonts table-->
+
+    <table>
+        <thead>
+            <tr>
+                <th>Font Name</th>
+                <th>Example</th>
+                <th>SRC</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="creepster">Creepster</td>
+                <td class="creepster">An example</td>
+                <td><a href="https://fonts.google.com/specimen/Creepster" target="_blank">
+                    https://fonts.google.com/specimen/Creepster</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="inspiration">Inspiration</td>
+                <td class="inspiration">An example</td>
+                <td><a href="https://fonts.google.com/specimen/Inspiration" target="_blank">
+                    https://fonts.google.com/specimen/Inspiration</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="roboto">Roboto</td>
+                <td class="roboto">An example</td>
+                <td><a href="https://fonts.google.com/specimen/Roboto" target="_blank">
+                    https://fonts.google.com/specimen/Roboto</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!--This is the second section-->
+
+<div>
+    <h2>Common Font-Families</h2>
+  
+    <p>These  first choice fonts will add a stylish edge to the webpage.  
+        These should already be installed on your browser ready to be 
+        displayed should they be listed in the font-family property in a CSS style sheet.</p>
+  
+
+  
+  <!--Here is the Common Font-Families table-->
+  
+      <table>
+          <thead>
+              <tr>
+                  <th>First Choice Font</th>
+                  <th>Websafe Font</th>
+                  <th>Fallback Font</th>
+              </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td class="arial_b">Arial Black</td>
+                <td class="gadget">Gadget</td>
+                <td class="sans_s">Sans-Serif</td>
+            </tr>
+            <tr>
+                <td class="comic_s">Comic Sans MS</td>
+                <td class="textile">Textile</td>
+                <td class="cursive">Cursive</td>
+            </tr>
+            <tr>
+                <td class="impact">Impact</td>
+                <td class="charcoal">Charcoal</td>
+                <td class="sans_s">Sans-Serif</td>
+            </tr>
+            <tr>
+                <td class="lucida_c">Lucida Console</td>
+                <td class="monaco">Monaco</td>
+                <td class="monospace">Monospace</td>
+            </tr>
+            <tr>
+                <td class="lucida_s">Lucida Sans Unicode</td>
+                <td class="lucida_g">Lucida Grande</td>
+                <td class="sans_s">Sans-Serif</td>
+            </tr>
+            <tr>
+                <td class="palatino_l">Palatino Linotype</td>
+                <td class="book_a">Book Antiqua</td>
+                <td class="serif">Serif</td>
+            </tr>
+            <tr>
+                <td class="verdana">Verdana</td>
+                <td class="geneva">Geneva</td>
+                <td class="sans_s">Sans-Serif</td>
+            </tr>
+            <tr>
+                <td class="ms_s_s">MS Sans Serif</td>
+                <td class="geneva">Geneva</td>
+                <td class="sans_s">Sans-Serif</td>
+            </tr>
+            <tr>
+                <td class="ms_s">MS Serif</td>
+                <td class="new_y">New York</td>
+                <td class="serif">Serif</td>
+            </tr>
+          </tbody>
+      </table>
+  </div>
+
+  <!--This is the third section-->
+
+<div>
+    <h2>Websafe Fonts</h2>
+  
+    <p>These are the browsers second choice fonts should 
+    your required font not be available.</p>
+    <table>
+          <thead>
+              <tr>
+                  <th>Font Name</th>
+                  <th>Font Type</th>
+              </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td class="arial">Arial</td>
+                <td class="sans_s">Sans-Serif</td>
+            </tr>
+            <tr>
+                <td class="verdana">Verdana</td>
+                <td class="sans_s">Sans-Serif</td>
+            </tr>
+            <tr>
+                <td class="tahoma">Tahoma</td>
+                <td class="sans_s">Sans-Serif</td>
+            </tr>
+            <tr>
+                <td class="trebuchet_m">Trebuchet MS</td>
+                <td class="sans_s">Sans-Serif</td>
+            </tr>
+            <tr>
+                <td class="times_n">Times New Roman</td>
+                <td class="serif">Serif</td>
+            </tr>
+            <tr>
+                <td class="georgia">Georgia</td>
+                <td class="serif">Serif</td>
+            </tr>
+            <tr>
+                <td class="garamond">Garamond</td>
+                <td class="serif">Serif</td>
+            </tr>
+            <tr>
+                <td class="courier_n">Courier New</td>
+                <td class="monospace">Monospace</td>
+            </tr>
+            <tr>
+                <td class="brush_s">Brush Script MT</td>
+                <td class="cursive">Cursive</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!--This is the fourth section-->
+
+<div>
+  <h2>Fallback Fonts</h2>
+
+  <p>These are the final choice font for the browser to display and are recognised in all browsers.</p>
+
+
+
+<!--Here is the Fallback Fonts table-->
+
+    <table>
+        <thead>
+            <tr>
+                <th>Font Type</th>
+                <th>Example</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="serif">Serif</td>
+                <td class="serif">This is an example</td>
+            </tr>
+            <tr>
+                <td class="sans_s">Sans-Serif</td>
+                <td class="sans_s">This is an example</td>
+            </tr>
+            <tr>
+                <td class="monospace">Monospace</td>
+                <td class="monospace">This is an example</td>
+            </tr>
+            <tr>
+                <td class="cursive">Cursive</td>
+                <td class="cursive">This is an example</td>
+            </tr>
+            <tr>
+                <td class="fantasy">Fantasy</td>
+                <td class="fantasy">This is an example</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

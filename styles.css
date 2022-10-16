@@ -1,0 +1,218 @@
+/* table 1 content - Google Fonts */
+@font-face {
+    font-family: 'Creepster';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/creepster/v13/AlZy_zVUqJz4yMrniH4Rcn35fh4Dog.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;);
+    }
+
+ @font-face {
+    font-family: 'Inspiration';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/inspiration/v3/x3dkckPPZa6L4wIg5cZOEsoBlyvHBwsz.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+.creepster {
+    font-family: Creepster, tahoma, sans-serif;
+}
+
+.inspiration {
+    font-family: inspiration, textile, cursive;
+}
+
+.roboto {
+    font-family: roboto, charcoal, sans-serif;
+}
+
+/* header */
+header {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    text-align: left;
+    box-sizing: border-box;
+    max-width: 720px;
+}
+
+/* body and page elements */
+
+body,
+h1,
+h2,
+p {
+    font-family: "Lucinda Console", Monaco, Monospace;
+    background-color: lightgrey;
+    margin: 4px;
+    padding: 5px;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.align_left{
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* div and table css */
+
+div {
+    box-sizing: border-box;
+    max-width: 720px;
+}
+
+table {
+    border: 4px groove white;
+    width: 100%;
+    margin: 0 auto;
+    }
+
+th {
+    text-align: left;
+    background-color: #a5a3a3;
+}
+
+td {
+    border-top: 1px solid grey;
+
+}
+
+/* table 2 content - common fonts */
+
+.arial_b {
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.gadget {
+    font-family: Gadget, sans-serif;
+}
+
+.sans_s {
+    font-family: sans-serif;
+}
+
+.comic_s {
+    font-family: "Comic Sans MS", Textile, Cursive;
+}
+
+.textile {
+    font-family: Textile, Cursive;
+}
+
+.cursive {
+    font-family: Cursive;
+}
+
+.impact {
+    font-family: impact, charcoal, sans-serif;
+}
+
+.charcoal {
+    font-family: charcoal, sans-serif;
+}
+
+.sans_s {
+    font-family:  sans-serif;
+}
+
+.lucida_c {
+    font-family: "lucida Console", monaco, monospace;
+}
+
+.monaco {
+    font-family: monaco, monospace;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+.lucida_s {
+    font-family: "lucida sans unicode", "lucida grande", sans-serif;
+}
+
+.lucida_g {
+    font-family: "lucida grande", sans-serif;
+}
+
+.palatino_l {
+    font-family: "palatino linotype", "book antiqua", serif;
+}
+
+.book_a {
+    font-family: "book antiqua", serif;
+}
+
+.serif {
+    font-family: serif;
+}
+
+.verdana {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.geneva {
+    font-family: Geneva, sans-serif;
+}
+
+.ms_s_s {
+    font-family: "MS sans serif", Geneva, sans-serif;
+}
+
+.ms_s {
+    font-family: "MS Serif,  "new york", serif";
+}
+
+.new_y {
+    font-family: "new york", serif;
+}
+
+/* table 3 content - websafe fonts */
+
+.tahoma {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.trebuchet_m {
+    font-family: "trebuchet ms", sans-serif;
+}
+
+.times_n {
+    font-family: "Times New Roman", serif;
+}
+
+.georgia {
+    font-family: georgia, serif;
+}
+
+.garamond {
+    font-family: garamond, serif;
+}
+
+.courier_n {
+    font-family: "courier new", monospace;
+}
+
+.brush_s {
+    font-family: "brush script mt", cursive;
+}
+
+/* table 4 content - fallback fonts */
+
+.fantasy {
+    font-family: fantasy;
+}
